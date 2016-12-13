@@ -11,11 +11,11 @@ $(document).ready(function()
 
 function prepareForMobile()
 {
-	if(documentwidth > 500)
+	if(documentwidth > 1280)
 	{
-		box = 500;
-		cellpadding = 20;
-		littlebox = 100;
+		box = 1280;
+		cellpadding = 56;
+		littlebox = 250;
 	}
 	else
 	{

@@ -1,5 +1,6 @@
 var documentwidth = document.documentElement.clientWidth ;
 var box = 0.92 * documentwidth;
+//alert(documentwidth);
 var cellpadding = 0.04*documentwidth;
 //var littleboxmargin = 0.02*documentwidth;
 var littlebox = 0.18*documentwidth;
@@ -449,7 +450,7 @@ document.addEventListener('touchend',function(event)
 	
 	var deltax = endx - startx;
 	var deltay = endy - starty;
-	if(Math.abs(deltax) < 0.3*documentwidth && Math.abs(deltay) < 0.3*documentwidth )
+	if(Math.abs(deltax) < 0.1*documentwidth && Math.abs(deltay) < 0.1*documentwidth )
 	{
 		return;
 	}
